@@ -24,6 +24,7 @@
   font-weight: 700;
   font-size: var(--accent-heading-mobile);
 }
+
 .header {
   display: grid;
   grid-template-rows: auto max-content auto;
@@ -32,7 +33,7 @@
 
 .header,
 .footer {
-min-block-size: 100vh;
+height: 100%;
 }
 
 .rec-badge {
