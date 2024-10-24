@@ -1,5 +1,5 @@
 .page {
-  padding: 10px;
+  padding: 20px;
   color: var(--text-clr);
   font-family: var(--page-font-family, "IBM Plex mono", monospace);
   background-image: var(--cover-image);
@@ -25,10 +25,14 @@
   font-size: var(--accent-heading-mobile);
 }
 .header {
-  height: 100%;
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
+}
+
+.header,
+.footer {
+min-block-size: 100vh;
 }
 
 .rec-badge {
@@ -358,7 +362,6 @@
 
 .footer {
   display: grid;
-  height: 100%;
 }
 
 .footer__text {
