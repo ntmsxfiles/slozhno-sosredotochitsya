@@ -7,8 +7,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   font-size: 18px;
+  background-color: var(--accent-clr-with-background);
+  background-attachment: fixed;
+  min-height: 668px;
 }
 
 @media (min-width: 768px) {
@@ -24,6 +26,7 @@
   font-size: var(--accent-heading-mobile);
 }
 .header {
+  width: 100%;
   display: grid;
   grid-template-rows: auto max-content auto;
   align-items: center;
@@ -169,7 +172,7 @@
   justify-self: end;
   margin: 0;
   padding-right: 50px;
-  max-inline-size: 364px;
+  max-inline-size: 355px;
 }
 
 @media (min-width: 768px) {
@@ -356,10 +359,12 @@
 
 .footer {
   display: grid;
+  width: 100%;
 }
 
 .footer__text {
   justify-self: center;
+  text-align: center;
   align-self: center;
   text-shadow: 2px 2px 0 var(--accent-clr);
 }
