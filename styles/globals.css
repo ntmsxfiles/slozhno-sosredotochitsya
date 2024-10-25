@@ -40,3 +40,13 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
